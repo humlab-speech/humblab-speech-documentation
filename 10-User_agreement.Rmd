@@ -1,0 +1,32 @@
+
+
+# The Code of Conduct
+
+When starting to use the infrastructure made available in VISP, the researcher should recognize that the facilities come with certain responsibilities. These are summarized also in the user agreement that the principle investigator (PI)  need to sign, and are
+
+* In order to use the VISP infrastructure, the data collection needs to have been approved by the 
+Swedish Ethical Review Authority^[Etiprövningsmyndigheten, https://etikprovningsmyndigheten.se] and/or other appropriate review authorities. The PI is responsible for making sure that a copy of an appropriate ethical application and approval us uploaded to project space before any sound files are uploaded. The PI is also responsible for keeping the documentation of ethical approval updated in VISP so that the project may be reviewed by authorized parties.
+
+* The VISP infrastructure provides a processing service for person identifiable information in terms of storage and transfer between the server and client applications that we provide only. For these steps, we will sign an appropriate agreement^[Personuppgiftsbiträdesavtal, PUBA] and assume the partial responsibility for processing under the GDPR.   
+
+* The VISP infrastructure also provides facilities and tools for project participants to perform speech analysis procedures on the sound files. It is up to the PI to ensure that the analyses actually performed on the sound files of a project are in agreement with the processing that was approved by the Ethical Review Authority and by the participants. The VISP 
+infrastructure assumes no responsibility for ensuring that the ethical approval is followed by the project.
+
+* The PI is required to *Acknowledge* the use of VISP resources in publications by using the text
+ 
+  > "This research was facilitated by the use of the Visible Speech (VISP) platform which is a part of the Swedish national research infrastructure Språkbanken and Swe-Clarin, funded jointly by the Swedish Research Council (2018–2024, contract 2017-00626) and the 10 participating partner institutions."
+ 
+   in publications.
+
+* The project is awarded a small^[Currently 1GB] (suitable for most projects) and medium storage space^[Currently up to 10GB] on the infrastructure depending on the calculated needs of the project. It is up to the PI to ensure that the project space allocation 
+
+* The PI is responsible for ensuring that the project behaves well within the infrastructure in terms of utilization of resources. The VISP infrastructure is not a high performance computational resource primarily, and users share the server resources. Large batch computations of signal files should, therefore, be performed on off-peak hours whenever possible.
+
+* The VISP infrastructure provides a secured storage and model for working with speech data in a distributed manner, including encrypted communication between the web client we provide and the server. The sound files are stored locally in the web browser when transcribing, and could potentially be obtained if extracted. The PI is responsible for instructing all users that are allowed to perform annotation work to make sure that the cache is cleared after each transcription session, after having saved the transcription back to the server of course, and quit the web browser after having accessed sensitive recordings. For highly sensitive data, the PI is recommended to instruct the transcribers to use the VPN connection provided by Umeå University^[Go to https://vpn.umu.se/ to set up the VPN client. An UMU-ID is required.] to the server.
+
+* If a project uses too much of the servers resources or in any way behaves in a way that is not in agreement with the intended use of the VISP infrastructure, the PI will be contacted. Repeated offenses that has been communicated to the PI will result in project members being unable to access VISP resources.  
+
+Further, the PI should further observe that
+
+* The VISP infrastructure is currently funded by Vetenskapsrådet via a grant awarded to Språkbanken and Swe-CLARIN. This funding may end and the VISP infrastructure may require funding from projects using it in the future. ^[No such change in funding structure is however on the horizon. VISP is built on top of the Emu Speech Database Management System  (http://ips-lmu.github.io/EMU.html) and the project may then download the files for local access to the database if the centralized storage and workflows developed for VISP is not required.]. 
+

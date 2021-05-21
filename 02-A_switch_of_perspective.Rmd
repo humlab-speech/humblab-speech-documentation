@@ -1,0 +1,4 @@
+
+# A change of perspective
+
+The Visual Speech (VISP) is built on top of the Emu Speech Database Management System^[http://ips-lmu.github.io/EMU.html] and is as such structured differently than a normal desktop application used for analyzing speech. 

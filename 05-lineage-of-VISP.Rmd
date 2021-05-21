@@ -1,0 +1,13 @@
+
+# The lineage of VISP
+
+The Visible Speech platform has two origins. Technically, most of the VISP is built up around what is now named the Emu Speech Data Management System [@Winkelmann:2017cl]. 
+
+In VISP we provde access to the fascilities of the [@R-emuR] [@winkelmann2015managing]
+
+```{r echo=FALSE}
+
+DT::datatable(reindeer::DSPP)
+
+```
+

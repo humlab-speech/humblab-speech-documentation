@@ -1,0 +1,34 @@
+--- 
+title: "A Minimal Book Example"
+author: "Yihui Xie"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib, references.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+# Preface {-}
+
+The Visual Speech (VISP) platform is an infrastructure designed to support all steps of a speech research project that relate in some way to the acoustic signal. Not all steps are, however, implemented at the moment, but we will when we release the infrastructure support
+
+* importing of existing sound files into a structured speech database system 
+* generation of fundamental signal tracks that are of interest
+* annotation of the signal track, on multiple tiers if required
+* structured analysis based on signal track data and added annotations, and
+* the ability to review and correct the both annotations and some signal tracks based on anomalies found in the analysis stage
+
+at a central location and in a manner that allow for both multiple annotators and multiple analysis processes accessing the same database. 
+
+All projects are also under version control, although not obvious to the user, so analysis steps may be retraced or reverted if required^[Please note however that reverting a project to a previous stage will always be a manual and very invasive process, so do take care when managing your data and do not rely on the version control too heavily.]. 
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages thar we want to refer to
+knitr::write_bib(c(
+  .packages(), 'emuR', 'bookdown', 'knitr', 'rmarkdown', 'base'
+), 'packages.bib')
+```
