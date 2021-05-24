@@ -11,3 +11,16 @@ DT::datatable(reindeer::DSPP)
 
 ```
 
+
+```{r}
+
+library(dygraphs)
+lungDeaths <- cbind(mdeaths, fdeaths)
+
+ X <- data.frame(d=rnorm(100,mean = 200,sd = 50),row.names = 1:100)
+
+
+dygraph(X)
+
+```
+
